@@ -1,1 +1,2 @@
-# article_flask_app
+# Flask based web app for MVRT's resources website
+
