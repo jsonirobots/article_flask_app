@@ -32,7 +32,7 @@ def login():
 @app.route('/authenticate',methods=['POST','GET'])
 def checkLogin():
     log=''
-    allowed={'0':'electricalRee','1':'mechanicalRee','2':'softwareRee','3':'financeRee','4':'marketingRee','5':'outreachRee'}
+    ##### removed keywords for privacy
     divisions={'0':'Electrical','1':'Mechanical','2':'Software','3':'Finance','4':'Marketing','5':'Outreach'}
 
     divis=str(request.args.get('div'))      #retrieve encrypted login info from webpage
